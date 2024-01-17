@@ -1,4 +1,5 @@
 import logo from "../assets/logo.png";
+import Button from "./Button";
 
 // Desc: This is the navbar component for the website
 function Navbar() {
@@ -7,8 +8,6 @@ function Navbar() {
     {name: "TOKENOMICS",link: "#"},
     {name: "ROADMAP",link: "#"},
     {name: "QUOTES",link: "#"},
-    {name: "BUY TOKEN",link: "#"},
-    {name: "WHITEPAPER",link: "#"},
   ];
   return (
     <div>
@@ -28,6 +27,13 @@ function Navbar() {
                 </li>
               ))
             }
+            <Button>
+              BUY TOKEN
+            </Button>
+            <Button>
+              WHITEPAPER 
+            </Button>
+
           </ul>
         </div>
       </div>
