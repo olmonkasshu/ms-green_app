@@ -41,7 +41,3 @@ function Navbar() {
   );
 }
 export default Navbar;
-
-// //  <ul className="">
-//
-// </ul>
