@@ -1,9 +1,10 @@
 import React from 'react'
-import Typed from 'react-typed'
+import { Typewriter } from 'react-simple-typewriter';
 import logo from "../../assets/logo.png";
 import Button from '../Button';
 
 const HeroPage = () => {
+  const strings = ["Ms $Green", "Green M&M", "$Green Token"];
   return (
     <div className='bg-white-800 my-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
       {/*Your text goes here*/}
@@ -11,16 +12,16 @@ const HeroPage = () => {
         {/*Your type effect goes here*/}
         <h1 className='font-bold text-4xl md:text-5xl lg:text-6xl  mx-6 md:ml-0'>
           <br />
-          <Typed
-            strings={[
-              "Ms $Green", "Green M&M", "$Green Token"
-            ]}
-            typeSpeed={150}
-            backSpeed={100}
+          <Typewriter
+            words={strings}
             loop
+            cursor
+            cursorStyle='_'
+            typeSpeed={150}
+            deleteSpeed={100}
+            delaySpeed={1000}
           />
-
-        </h1>
+          </h1>
         <p className='ttext-green text-lg md:text-xl lg:text-2xl mx-6 md:ml-0'><br />Discover meme delight with Ms $Green
           <br></br>
           a playful token, a tasty potential.Sweeten your <br /> portfolio today! 🍬🪙🚀</p>
