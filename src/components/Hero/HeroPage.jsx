@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 import Button from '../Button';
 
 const HeroPage = () => {
-  const strings = ["Ms $Green", "Green M&M", "$Green Token"];
+  const strings = ["Ms $Green", "Green M&M", "$Green Token","Green M&M"];
   return (
     <div className='bg-white-800 my-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
       {/*Your text goes here*/}
