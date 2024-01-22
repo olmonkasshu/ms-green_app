@@ -1,7 +1,7 @@
-import React from 'react';
 import logo from "../assets/logo.png";
 import Button from "./Button";
 import { useState } from "react";
+
 function Navbar() {
   let Links = [
     { name: "ABOUT", link: "#" },
