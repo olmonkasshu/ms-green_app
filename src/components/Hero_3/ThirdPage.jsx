@@ -1,4 +1,4 @@
-import pics from "../assets/pics.jpg";
+import pics from "../../assets/pics.jpg";
 
 function ThirdPage() {
   return (
