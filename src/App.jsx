@@ -2,8 +2,10 @@ import './App.css'
 import Navbar from './components/Navbar'
 import HeroPage from './components/Hero/HeroPage'
 import SecondPage from './components/Hero_2/SecondPage'
-import Footer from './components/Footer/Footer'
+import ThirdPage from "./components/ThirdPage"
 import FourthPage from './components/Hero_4/FourthPage'
+import Footer from './components/Footer/Footer'
+
 
 function App() {
   return (
@@ -11,10 +13,10 @@ function App() {
       <Navbar />
       <HeroPage />
       <SecondPage/>
+      <ThirdPage />
       <FourthPage />
-      <Footer />
-      {/* <h1 className="text-3xl font-bold underline text-center">Hello React</h1> */}
-        
+      <Footer />    
+     
     </>
   )
 }

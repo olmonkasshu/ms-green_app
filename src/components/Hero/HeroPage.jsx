@@ -45,7 +45,7 @@ const HeroPage = () => {
 
       </div>
 
-      <div class="md:col-span-1 mx-6 md:ml-0">
+      <div className="md:col-span-1 mx-6 md:ml-0">
         {/*Your image goes here*/}
         <img src={logo} className="w-max md:w-auto max-h-3/4  md:h-3/4 md:py-6 object-contain" />
       </div>
