@@ -21,16 +21,6 @@ const HeroPage = () => {
             deleteSpeed={100}
             delaySpeed={1000}
           />
-<<<<<<< HEAD
-          </h1>
-        <p className='text-green text-lg md:text-xl lg:text-2xl mx-6 md:ml-0'><br />Discover meme delight with Ms $Green
-          <br></br>
-          a playful token, a tasty potential.Sweeten your <br /> portfolio today! 🍬🪙🚀</p>
-
-        {/*Your btn goes here*/}
-
-        <div className='grid text-green-900 grid-cols-1 md:grid-cols-2 gap-2 mx-6 md:ml-0'>
-=======
         </h1>
         <p className='text-green text-lg md:text-xl lg:text-2xl mx-6 md:ml-0'>
           <br />Discover meme delight with Ms $Green
@@ -40,7 +30,6 @@ const HeroPage = () => {
 
         {/*Your btn goes here*/}
         <div className='grid grid-cols-1 md:grid-cols-2 gap-2 mx-6 md:ml-0 '>
->>>>>>> 5bc922bdfb9a6c930d5903992c5e3c44fbf3d671
           <Button className="md:mr-2 active">
             BUY TOKEN
           </Button>
