@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import logo from "../../assets/logo.png";
 import Button from '../Button';
 
 const HeroPage = () => {
-  const strings = ["Ms $Green", "Green M&M", "$Green Token","Green M&M"];
+  const strings = ["Ms $Green", "Green M&M", "$Green Token", "Green M&M"];
   return (
     <div className='bg-white-800 mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
       {/*Your text goes here*/}
@@ -21,13 +21,14 @@ const HeroPage = () => {
             deleteSpeed={100}
             delaySpeed={1000}
           />
-          </h1>
-        <p className='ttext-green text-lg md:text-xl lg:text-2xl mx-6 md:ml-0'><br />Discover meme delight with Ms $Green
+        </h1>
+        <p className='text-green text-lg md:text-xl lg:text-2xl mx-6 md:ml-0'>
+          <br />Discover meme delight with Ms $Green
           <br></br>
-          a playful token, a tasty potential.Sweeten your <br /> portfolio today! 🍬🪙🚀</p>
+          a playful token, a tasty potential.Sweeten your <br /> portfolio today! 🍬🪙🚀
+        </p>
 
         {/*Your btn goes here*/}
-
         <div className='grid grid-cols-1 md:grid-cols-2 gap-2 mx-6 md:ml-0 '>
           <Button className="md:mr-2 active">
             BUY TOKEN
@@ -41,8 +42,6 @@ const HeroPage = () => {
             PLAY
           </Button>
         </div>
-
-
       </div>
 
       <div className="md:col-span-1 mx-6 md:ml-0">
@@ -50,9 +49,7 @@ const HeroPage = () => {
         <img src={logo} className="w-max md:w-auto max-h-3/4  md:h-3/4 md:py-6 object-contain" />
       </div>
     </div>
+  );
+};
 
-
-  )
-}
-
-export default HeroPage
+export default HeroPage;
