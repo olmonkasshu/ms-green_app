@@ -22,13 +22,13 @@ const HeroPage = () => {
             delaySpeed={1000}
           />
           </h1>
-        <p className='ttext-green text-lg md:text-xl lg:text-2xl mx-6 md:ml-0'><br />Discover meme delight with Ms $Green
+        <p className='text-green text-lg md:text-xl lg:text-2xl mx-6 md:ml-0'><br />Discover meme delight with Ms $Green
           <br></br>
           a playful token, a tasty potential.Sweeten your <br /> portfolio today! 🍬🪙🚀</p>
 
         {/*Your btn goes here*/}
 
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-2 mx-6 md:ml-0'>
+        <div className='grid text-green-900 grid-cols-1 md:grid-cols-2 gap-2 mx-6 md:ml-0'>
           <Button className="md:mr-2 active">
             BUY TOKEN
           </Button>

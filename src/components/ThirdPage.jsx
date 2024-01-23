@@ -3,7 +3,7 @@ import pics from "../assets/pics.jpg";
 function ThirdPage() {
   return (
     <div className="">
-      <span>
+      <span className="">
         <img src={pics} />
       </span>
 
