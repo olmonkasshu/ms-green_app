@@ -4,7 +4,7 @@ import React from "react";
 
 const FourthPage = () => {
   return (
-    <div className="flex m-20">
+    <div className="flex my-48">
       {/* Left Column */}
       <div className="flex-1">
         {/* Add your text here */}
