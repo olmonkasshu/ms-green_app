@@ -6,7 +6,7 @@ import Button from '../Button';
 const HeroPage = () => {
   const strings = ["Ms $Green", "Green M&M", "$Green Token", "Green M&M"];
   return (
-    <div className='bg-white-800 mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
+    <div className='bg-white-800 text-green-900 mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
       {/*Your text goes here*/}
       <div className='col-span-1 md:ml-20'>
         {/*Your type effect goes here*/}
@@ -22,15 +22,15 @@ const HeroPage = () => {
             delaySpeed={1000}
           />
         </h1>
-        <p className='text-green text-lg md:text-xl lg:text-2xl mx-6 md:ml-0'>
+        <p className='text-lg md:text-xl lg:text-2xl mx-6 md:ml-0'>
           <br />Discover meme delight with Ms $Green
           <br></br>
           a playful token, a tasty potential.Sweeten your <br /> portfolio today! 🍬🪙🚀
         </p>
 
         {/*Your btn goes here*/}
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-2 mx-6 md:ml-0 '>
-          <Button className="md:mr-2 active">
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-2 md:ml-0'>
+          <Button className="bg-green-900 md:mr-2 active">
             BUY TOKEN
           </Button>
 

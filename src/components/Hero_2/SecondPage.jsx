@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../Button';
 const SecondPage = () => {
   return (
-    <div className="flex ">
+    <div className="flex mb-5">
       {/* Left Column */}
       <div className="flex-1">
         {/* Add your text here */}
