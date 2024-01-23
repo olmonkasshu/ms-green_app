@@ -1,7 +1,6 @@
 import logo from "../assets/logo.png";
 import Button from "./Button";
 import { useState } from "react";
-
 function Navbar() {
   let Links = [
     { name: "ABOUT", link: "#" },
@@ -15,7 +14,7 @@ function Navbar() {
 
   return (
     <div>
-      <div className="shadow-md w-full fixed top-0 left-0">
+      <div className="absolute shadow-md w-full top-0 left-0">
         <div className="md:flex justify-between bg-green-950 py-3 md:px-5 px-5">
           <div className="lg:flex flex-shrink-0 justify-between font-bold text-2xl cursor-pointer flex items-center">
             <span>
