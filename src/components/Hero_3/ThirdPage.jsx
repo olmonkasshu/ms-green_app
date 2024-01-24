@@ -18,7 +18,7 @@ function ThirdPage() {
     <div className="flex flex-col items-center">
       <img src={pics} alt="Picture" className="mb-4" />
       
-      <div className="relative bg-green-400 h-full rounded-full self-center-start-15 -m-80">
+      <div className="relative bg-green-400 h-full rounded-full self-center-start-15 -m-80 w-20 ">
         <div className="absolute inset-0 flex items-center justify-center">
           {!videoVisible && (
             <button
