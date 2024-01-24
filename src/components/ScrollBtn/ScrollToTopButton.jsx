@@ -31,7 +31,7 @@ const ScrollToTopButton = () => {
   }, []);
 
   return (
-    <div>
+    <div className="hidden md:block">
       {isVisible && (
         <button
           className="fixed bottom-4 right-4 bg-green-500 text-white p-2 rounded-lg focus:outline-none hover:bg-green-600 transition duration-300"

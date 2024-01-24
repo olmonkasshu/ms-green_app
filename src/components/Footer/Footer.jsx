@@ -5,11 +5,11 @@ import { FaTwitter, FaTelegram, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="text-center bg-green-900">
+    <div className="text-center bg-green-900 ">
       <div className="">
-        <p className="font-extrabold text-[40px] text-green-400">Join us in the community</p>
+        <p className="font-extrabold text-[40px] text-green-400 md:mx-8"><br />Join us in the community</p>
 
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center mt-4 md:mx-8">
           {/* Email Icon with Link */}
           <a
             href="mailto:Candy@msgreen.org"
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
 
-          <p className="text-bold  text-white">
+          <p className="text-bold  text-white md:mx-8">
           
             © 2023 - 2024 Ms Green: The Sweetest Ride In Crypto
         </p>

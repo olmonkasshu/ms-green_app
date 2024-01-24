@@ -20,7 +20,7 @@ function App() {
       <ThirdPage />
       <FourthPage />
       <FifthPage />
-      <SixthPage />     
+      {/*<SixthPage /> */ }    
       <Footer />  
      <ScrollToTopButton/>
     </>
