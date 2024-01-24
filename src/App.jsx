@@ -7,6 +7,8 @@ import FourthPage from './components/Hero_4/FourthPage'
 import FifthPage from './components/Hero_5/FifthPage'
 import SixthPage from './components/SixthPage'
 import Footer from './components/Footer/Footer'
+import ScrollToTopButton from './components/ScrollBtn/ScrollToTopButton'
+
 
 
 function App() {
@@ -18,9 +20,9 @@ function App() {
       <ThirdPage />
       <FourthPage />
       <FifthPage />
-      <SixthPage />
-      {/* <Footer />   */}
-     
+      <SixthPage />     
+      <Footer />  
+     <ScrollToTopButton/>
     </>
   )
 }
