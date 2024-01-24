@@ -5,6 +5,7 @@ import SecondPage from './components/Hero_2/SecondPage'
 import ThirdPage from "./components/Hero_3/ThirdPage"
 import FourthPage from './components/Hero_4/FourthPage'
 import FifthPage from './components/Hero_5/FifthPage'
+import SixthPage from './components/SixthPage'
 import Footer from './components/Footer/Footer'
 
 
@@ -17,7 +18,8 @@ function App() {
       <ThirdPage />
       <FourthPage />
       <FifthPage />
-      {/* <Footer />  */ } 
+      <SixthPage />
+      {/* <Footer />   */}
      
     </>
   )
