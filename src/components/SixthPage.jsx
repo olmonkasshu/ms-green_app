@@ -20,7 +20,7 @@ function SixthPage() {
           </p>
         </div>
 
-        <div className="bg-green-950 ring-yellow-300 ml-36 mt-10 justify-between h-dvh w-3/5 p-5">
+        <div className="bg-green-950 ring-2 ring-lime-400 ml-40 mt-10 justify-between h-dvh w-3/5 p-5">
           <div className=" flex p-7 text-lime-400">
             <span className="mt-2 px-5">
               Q1 2024
