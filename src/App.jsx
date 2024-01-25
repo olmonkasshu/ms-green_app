@@ -8,6 +8,7 @@ import FifthPage from './components/Hero_5/FifthPage'
 import SixthPage from './components/Hero_6/SixthPage'
 import Footer from './components/Footer/Footer'
 import ScrollToTopButton from './components/ScrollBtn/ScrollToTopButton'
+import ProgressPieLoder from './components/Progress/Progress'
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <SixthPage />  
       <Footer />  
      <ScrollToTopButton/>
+     <ProgressPieLoder />
     </>
   )
 }

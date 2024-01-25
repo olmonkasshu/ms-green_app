@@ -12,17 +12,17 @@ import Slider_3 from '../Slider/Slider_3';
 const slidesContent = [
   {
     title: '',
-    description: '1',
+    description: '',
     component: <Slider_1 />,
   },
   {
     title: '',
-    description: '2',
+    description: '',
     component: <Slider_2 />,
   },
   {
     title: '',
-    description: '3',
+    description: '',
     component: <Slider_3 />,
   },
 ];
@@ -75,7 +75,7 @@ const InnerSlider = ({ slides }) => {
       </Slider>
       <div className="absolute top-1/2 transform -translate-y-1/2 left-4">
         <button
-          className="bg-green-500 text-white p-1 rounded-full focus:outline-none hover:bg-green-600"
+          className=" text-white p-2 rounded-full focus:outline-none"
           onClick={prevSlide}
         >
           <FaArrowLeft size={20} />
@@ -83,7 +83,7 @@ const InnerSlider = ({ slides }) => {
       </div>
       <div className="absolute top-1/2 transform -translate-y-1/2 right-4">
         <button
-          className="bg-green-500 text-white p-1 rounded-full focus:outline-none hover:bg-green-600 ml-1"
+          className=" text-white p-2 rounded-full focus:outline-none  ml-2"
           onClick={nextSlide}
         >
           <FaArrowRight size={20} />
@@ -98,7 +98,9 @@ const SlideContent = ({ title, description, component }) => (
   <div className="p-4">
     <h2 className="text-lg font-bold">{title}</h2>
     <p>{description}</p>
-    {component}
+    <div className="outline-none"> {/* Add this div with the outline-none class */}
+      {component}
+    </div>
   </div>
 );
 
