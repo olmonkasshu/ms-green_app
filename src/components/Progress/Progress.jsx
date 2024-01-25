@@ -20,7 +20,7 @@ const ProgressPieLoder = () => {
   const circleCircumference = 30 * 2 * Math.PI;
 
   return (
-    <div className="min-h-screen relative">
+    <div className="relative">
       {/* Top bar */}
       <div className="fixed inset-x-0 top-0 z-50">
         <div className="h-1 bg-green-500" style={{ width: `${scrollPercent}%` }}></div>
