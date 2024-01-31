@@ -6,9 +6,9 @@ import Button from '../Button';
 const HeroPage = () => {
   const strings = ["Ms $Green", "Green M&M", "$Green Token", "Green M&M"];
   return (
-    <div className='bg-white-800 text-green-900 mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
+    <div className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
       {/*Your text goes here*/}
-      <div className='col-span-1 md:ml-20'>
+      <div className='hero col-span-1 md:ml-20'>
         {/*Your type effect goes here*/}
         <h1 className='font-bold text-4xl md:text-5xl lg:text-6xl  mx-6 md:ml-0'>
           <br />

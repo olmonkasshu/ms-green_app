@@ -11,7 +11,6 @@ import ScrollToTopButton from './components/ScrollBtn/ScrollToTopButton'
 import ProgressPieLoder from './components/Progress/Progress'
 
 
-
 function App() {
   return (
     <>
@@ -22,11 +21,9 @@ function App() {
       <FourthPage />
       <FifthPage />
       <SixthPage />     
-       <Footer />  
-      <SixthPage />  
       <Footer />  
-     <ScrollToTopButton/>
-     <ProgressPieLoder />
+      <ScrollToTopButton/>
+      <ProgressPieLoder />
     </>
   )
 }
