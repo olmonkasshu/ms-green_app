@@ -3,19 +3,19 @@ import React from 'react'
 const Slider_2 = () => {
   return (
     <div className="">
+      
           <div className=" flex p-7 text-lime-400">
             <span className="mt-2 px-5">
               Q1 2024
             </span>
 
             <div>
-             <span className="grid text-lime-400 text-4xl">Ms $Green's:</span>
+             <span className="grid text-lime-400 text-4xl">Chromatic Convergence</span>
               <ul className="col text-white">
-                <li>Launch the Ms $green Token with a sprinkle of
-                  magic and a whole lot of meme-worthy charm.
+                <li>Minting Collectible Green NFT M&M and Ploneering
                 </li>
                 <li>
-                  Set the stage for an unforgettable journey that's sweeter than candy.
+                Multicolored Collaborations.
                 </li>
               </ul>
             </div>
@@ -27,13 +27,14 @@ const Slider_2 = () => {
             </span>
 
             <div>
-             <span className="grid text-lime-400 text-4xl">Ms $Green's:</span>
+             <span className="grid text-lime-400 text-4xl">Meme Mastermind Meetups:</span>
               <ul className="col text-white">
-                <li>Launch the Ms $green Token with a sprinkle of
-                  magic and a whole lot of meme-worthy charm.
+               
+                <li>
+                Host virtual gatherings where meme enthusiasts share
                 </li>
                 <li>
-                  Set the stage for an unforgettable journey that's sweeter than candy.
+                It's like a potluck, but with memes (and fewer calories).
                 </li>
               </ul>
             </div>
@@ -45,13 +46,12 @@ const Slider_2 = () => {
             </span>
 
             <div>
-             <span className="grid text-lime-400 text-4xl">Ms $Green's:</span>
+             <span className="grid text-lime-400 text-4xl">Laughter Liquidity Pool</span>
               <ul className="col text-white">
-                <li>Launch the Ms $green Token with a sprinkle of
-                  magic and a whole lot of meme-worthy charm.
+                <li>Fill the meme-themed liquidity pool for some smooth <br />trading action.
                 </li>
                 <li>
-                  Set the stage for an unforgettable journey that's sweeter than candy.
+                Because just like a bag of M&M's, our liquidity should be perfectly balanced.
                 </li>
               </ul>
             </div>

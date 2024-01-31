@@ -21,9 +21,8 @@ function App() {
       <ThirdPage />
       <FourthPage />
       <FifthPage />
-      <SixthPage />     
-       <Footer />  
-      <SixthPage />  
+      <SixthPage />    
+        
       <Footer />  
      <ScrollToTopButton/>
      <ProgressPieLoder />

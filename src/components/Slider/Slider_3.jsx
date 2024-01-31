@@ -5,17 +5,35 @@ const Slider_3 = () => {
     <div className="">
           <div className=" flex p-7 text-lime-400">
             <span className="mt-2 px-5">
-              Q1 2024
+            Q1 2025
             </span>
 
             <div>
-             <span className="grid text-lime-400 text-4xl">Ms $Green's:</span>
+             <span className="grid text-lime-400 text-4xl">M&M's Moonbase</span>
               <ul className="col text-white">
-                <li>Launch the Ms $green Token with a sprinkle of
-                  magic and a whole lot of meme-worthy charm.
+                <li>LEstablish the first-ever meme-themed moonbase, <br />
+                where gravity is just a state of mind.
                 </li>
                 <li>
-                  Set the stage for an unforgettable journey that's sweeter than candy.
+                Crypto meets lunar laughter in this historic leap for <br /> memekind.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div className="flex p-7 text-lime-400">
+            <span className="mt-2 px-5">
+              Q1 2025
+            </span>
+
+            <div>
+             <span className="grid text-lime-400 text-4xl">Galactic Giggle Network</span>
+              <ul className="col text-white">
+                <li>Spread meme joy across the galaxy with our interstellar <br /> communication platform.
+                </li>
+                <li>
+                Memes: the universal language that unites civilizations <br />far and wide.
                 </li>
               </ul>
             </div>
@@ -23,39 +41,22 @@ const Slider_3 = () => {
 
           <div className="flex p-7 text-lime-400">
             <span className="mt-2 px-5">
-              Q1 2024
+            Q1 2025
             </span>
 
             <div>
-             <span className="grid text-lime-400 text-4xl">Ms $Green's:</span>
+             <span className="grid text-lime-400 text-3xl">Cosmic Comedy Tour: - Q3 2025</span>
               <ul className="col text-white">
-                <li>Launch the Ms $green Token with a sprinkle of
-                  magic and a whole lot of meme-worthy charm.
+                <li>Take the show on the road and host meme events on  <br />planets, asteroids, and beyond.
                 </li>
                 <li>
-                  Set the stage for an unforgettable journey that's sweeter than candy.
+                Bringing laughter to the final frontier, one meme at a <br /> time.
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="flex p-7 text-lime-400">
-            <span className="mt-2 px-5">
-              Q1 2024
-            </span>
-
-            <div>
-             <span className="grid text-lime-400 text-4xl">Ms $Green's:</span>
-              <ul className="col text-white">
-                <li>Launch the Ms $green Token with a sprinkle of
-                  magic and a whole lot of meme-worthy charm.
-                </li>
-                <li>
-                  Set the stage for an unforgettable journey that's sweeter than candy.
-                </li>
-              </ul>
-            </div>
-          </div>
+          
         </div>
   )
 }
