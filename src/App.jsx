@@ -21,6 +21,8 @@ function App() {
       <ThirdPage />
       <FourthPage />
       <FifthPage />
+      <SixthPage />     
+       <Footer />  
       <SixthPage />  
       <Footer />  
      <ScrollToTopButton/>
