@@ -2,7 +2,7 @@ import React from 'react'
 
 function SixthPage() {
   return (
-    <div className="bg-green-900 mt-0 md:w-full lg:w-3/4 xl:w-full 2xl:w-1/3">
+    <div className="bg-darkGreen mt-0 md:w-full lg:w-3/4 xl:w-full 2xl:w-1/3">
       <div className="px-5 py-5">
         <div>
           <article className="text-wrap py-10">
