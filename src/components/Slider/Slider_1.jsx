@@ -2,7 +2,9 @@ import React from 'react'
 
 const Slider_1 = () => {
   return (
-    <div className="">
+    <div className="overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;">
           <div className=" flex p-7 text-lime-400">
             <span className="mt-2 px-5">
               Q1 2024

@@ -4,10 +4,15 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
+import Navbar from '../Navbar';
+
 import Slider_1 from '../Slider/Slider_1';
 import Slider_2 from '../Slider/Slider_2';
 import Slider_3 from '../Slider/Slider_3';
 
+
+
+<Navbar />
 // Sample content for the sliders
 const slidesContent = [
   {

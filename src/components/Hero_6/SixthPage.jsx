@@ -2,6 +2,10 @@
 
 import MainComponent from "../InnerSlider/InnerSlider";
 
+import Navbar from "../Navbar";
+
+<Navbar />
+
 function SixthPage() { 
   return (
     <div className="bg-green-900 mt-0">
