@@ -10,12 +10,14 @@ function Navbar() {
     { name: "QUOTES", link: "#" },
   ];
   const [isMenuVisible, setIsMenuVisible] = useState(false);
-  
-  const toggleMenu = () => {setIsMenuVisible(!isMenuVisible)};
+
+  const toggleMenu = () => {
+    setIsMenuVisible(!isMenuVisible);
+  };
 
   return (
     <div>
-      <div className="shadow-md w-full fixed top-0 left-0">
+      <div className="shadow-md w-full fixed z-10 top-0 left-0">
         <div className="md:flex justify-between bg-green-950 py-3 md:px-5 px-5">
           <div className="lg:flex flex-shrink-0 justify-between font-bold text-2xl cursor-pointer flex items-center">
             <span>
@@ -23,27 +25,32 @@ function Navbar() {
             </span>
             <div onClick={toggleMenu} className="cursor-pointer md:hidden">
               <button className="px-3 py-2 border-2 rounded text-white hover:text-white hover:border-white">
-                <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title>
-                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                <svg
+                  className="fill-current h-3 w-3"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <title>Menu</title>
+                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                 </svg>
               </button>
             </div>
           </div>
-          
-          <ul className={`md:block md:w-full md:flex justify-end md:items-center mt-4 md:mt-0 ${isMenuVisible ? '' : 'hidden'}`}>
+
+          <ul
+            className={`md:w-full md:flex justify-end md:items-center mt-4 md:mt-0 ${
+              isMenuVisible ? "" : "hidden"
+            }`}>
             {Links.map((link, index) => (
-              <li key={index} className="md:ml-4 py-2 text-md text-white hover:text-green-900 duration-500">
+              <li
+                key={index}
+                className="md:ml-4 py-2 text-md text-white hover:text-green-900 duration-500">
                 <a href={link.link}>{link.name}</a>
               </li>
             ))}
-            
+
             <div className="md:flex md:ml-4">
-              <Button>
-                BUY TOKEN
-              </Button>
-              <Button>
-                WHITEPAPER
-              </Button>
+              <Button>BUY TOKEN</Button>
+              <Button>WHITEPAPER</Button>
             </div>
           </ul>
         </div>
