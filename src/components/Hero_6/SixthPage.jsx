@@ -1,10 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
+
 
 import MainComponent from "../InnerSlider/InnerSlider";
-
-import Navbar from "../Navbar";
-
-<Navbar />
 
 function SixthPage() { 
   return (
